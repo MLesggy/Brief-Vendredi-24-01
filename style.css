@@ -133,3 +133,26 @@ color: #89FFFD;
     grid-row-start: 1;
 }
 /* Mise en page du pied de page */
+.pied{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:70px;
+    color: white;
+}
+li{
+    list-style: none;
+    font-size: 18px;
+}
+.gras{
+    font-weight: 600;
+}
+.pied2{
+    border: solid 3px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logoPied{
+    gap: 200px;
+}
