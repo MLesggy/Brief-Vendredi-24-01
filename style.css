@@ -4,10 +4,126 @@
     box-sizing: border-box;
   }
 body{
-    background-color: #373737;
+    background: linear-gradient(90deg, #3E4044 0%, #28292F 100%);
 }
-.banniere{
+section{
     margin: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid 4px white;
 }
+/* mise en page de la bannière */
+nav{
+    text-align: right;
+    font-size: 20px ;
+}
+a{
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+/* mise en page de la deuxième section */
+.cadre-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 601px;
+    border: solid 3px red;
+    background-image: url(img-shoe-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box2-1{
+    align-self: left;
+    text-align: left;
+    margin-left: 250px;
+    border: solid 3px blue;
+}
+h1{
+    font-size: 161px;
+    font-weight: 800;
+    color:aqua;
+}
+h2{
+    font-family: Montserrat;
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 49.98px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 24px;
+    line-height: 35px;
+}
+.typo{
+    font-weight: normal;
+}
+.bouton{
+    width: 172px;
+    height: 50px;
+    top: 509px;
+    left: 122px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    background: #EF32D9;
+    color:white;
+    font-size: large;
+}
+.box2-2{
+    align-self: flex-end;
+    border: solid 3px pink;
+    align-self: flex-end;
+}
+
+/* Mise en forme section 3 */
+.vente{
+    border: solid 3px green;
+}
+/* Mise en page de la partie nouvelle collection */
+h4{
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 500;
+text-align: left;
+color: #89FFFD;
+}
+.cadre-section4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.box4-1{
+    grid-row: span 2 / span 2;
+}
+.box4-2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.box4-3{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.box4-4{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+.box4-5{
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.box4-6{
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+/* Mise en page du pied de page */
