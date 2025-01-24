@@ -14,14 +14,24 @@ section{
 }
 /* mise en page de la bannière */
 nav{
-    text-align: right;
-    font-size: 20px ;
+    border: solid 4px orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 a{
     color: white;
     font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    padding: 15px;
+}
+.Loupe{
+    align-self: flex-end; 
+    margin: 10px;;
+}
+.shop{
+    align-self: flex-end;
+    margin: 10px;
 }
 
 
@@ -152,7 +162,4 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-}
-.logoPied{
-    gap: 200px;
 }
