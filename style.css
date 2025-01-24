@@ -85,7 +85,13 @@ p{
 
 /* Mise en forme section 3 */
 .vente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     border: solid 3px green;
+}
+.titreArt{
+    color: #89FFFD;
 }
 /* Mise en page de la partie nouvelle collection */
 h4{
