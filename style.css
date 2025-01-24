@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: black;
+}
+.banniere{
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
