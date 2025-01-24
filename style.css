@@ -56,7 +56,6 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     height: 601px;
-    border: solid 3px red;
     background-image: url(img-shoe-home.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -65,7 +64,6 @@ h2{
     align-self: left;
     text-align: left;
     margin-left: 250px;
-    border: solid 3px blue;
 }
 .bouton{
     width: 170px;
@@ -78,10 +76,8 @@ h2{
 }
 .box2-2{
     align-self: flex-end;
-    border: solid 3px pink;
 }
 .box2-3{
-    border: solid 3px yellow;
     align-items: flex-end;
     margin-top: 35px;
 }
@@ -91,7 +87,6 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid 3px green;
     gap: 50px;
 }
 .titreArt{
@@ -109,7 +104,6 @@ color: #89FFFD;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    border: solid 3px orange;  
 }
 .box4-1{
     grid-column:2/5;
@@ -151,8 +145,15 @@ li{
     font-weight: 600;
 }
 .pied2{
-    border: solid 3px red;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+@media (max-width:600px){
+    .cadre-section2{
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+    }
 }
